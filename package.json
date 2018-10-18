@@ -1,0 +1,67 @@
+{
+  "_from": "zhf.dom-remove",
+  "_id": "zhf.dom-remove@1.0.2",
+  "_inBundle": false,
+  "_integrity": "sha512-viMRT0Vw4cuKXfFFU4dHw6RFu2uAh8PHhMh0UoqYPZhp4IHxhezGEaOVndb1B67P8UU6lLKMVcRjtKihQ3yhgQ==",
+  "_location": "/zhf.dom-remove",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "zhf.dom-remove",
+    "name": "zhf.dom-remove",
+    "escapedName": "zhf.dom-remove",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#DEV:/",
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/zhf.dom-remove/-/zhf.dom-remove-1.0.2.tgz",
+  "_shasum": "9320ad0f8b7b04eda0935cbcec9f7405e066e1b8",
+  "_spec": "zhf.dom-remove",
+  "_where": "/Users/zhouhuafei/Desktop/hehe",
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/zhouhuafei/zhf.dom-remove/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "zhf.get-dom-array": "^1.0.0"
+  },
+  "deprecated": false,
+  "description": "no description",
+  "devDependencies": {
+    "babel-eslint": "^8.0.2",
+    "babel-preset-env": "^1.6.0",
+    "eslint": "^4.11.0",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-plugin-html": "^3.2.2",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-node": "^5.2.1",
+    "eslint-plugin-promise": "^3.6.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^7.0.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^3.0.0",
+    "jest": "^22.1.1"
+  },
+  "homepage": "https://github.com/zhouhuafei/zhf.dom-remove#readme",
+  "license": "ISC",
+  "main": "dist/index.min.js",
+  "name": "zhf.dom-remove",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhouhuafei/zhf.dom-remove.git"
+  },
+  "scripts": {
+    "codeFix": "eslint --fix --ext .js,.vue,.html ./",
+    "codeLint": "eslint --ext .js,.vue,.html ./",
+    "gulp": "gulp",
+    "test": "jest"
+  },
+  "version": "1.0.2"
+}
